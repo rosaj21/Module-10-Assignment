@@ -1,0 +1,8 @@
+public class abstractMain{
+    public static void main(String[] args) {
+        Dog dog = new Dog("Buford", "Pitbull", 3);
+        dog.makeNoise();
+        Cat cat = new Cat("Luna", "Maine Coon", 3);
+        cat.makeNoise();
+    }
+}
