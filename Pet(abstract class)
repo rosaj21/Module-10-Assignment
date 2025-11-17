@@ -1,0 +1,7 @@
+public abstract class Pet {
+    protected String name, race;
+    protected int age;
+
+
+    public abstract void  makeNoise();
+}
