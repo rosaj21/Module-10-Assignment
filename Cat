@@ -1,0 +1,15 @@
+public class Cat extends Pet {
+    private String name, race;
+    private int age;
+
+    Cat(String name, String race, int age) {
+        this.name = name;
+        this.race = race;
+        this.age = age;
+    }
+
+    @Override
+    public void makeNoise() {
+        System.out.println(name + " says MEOW!!!!");
+    }
+}
