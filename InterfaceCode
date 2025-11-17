@@ -1,5 +1,3 @@
-
-
 interface Speak {
     Boolean canSpeak = true;
     void Speak();
